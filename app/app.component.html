@@ -1,0 +1,8 @@
+<nav *ngIf="navbar" class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">Messagerie (ENIG)</span>
+  <button type="submit" (click)="send()"class="btn btn-primary" routerLink="send">Send</button>
+</nav>
+<div class="container">
+  <h2 class="text-center">Application Messagerie</h2>
+  <router-outlet></router-outlet>
+</div>
